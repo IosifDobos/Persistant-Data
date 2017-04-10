@@ -1,1 +1,33 @@
-This is my Assignment for Persistant Data
+Created by:
+	Iosif Dobos, C16735789
+	Niall Glynn, C15742685
+
+
+For this Group Assignment we had to create three programs writen in C language.
+	Part 1: Program required to create a "utility" program called readMP3.c that is called by the command line
+		specifying the name of the file to analyse. For example:
+			C:>read_mp3 mysong.mp3
+		The utility is supposed to get some metadata information from the mp3 file by reading the MP3
+		audio tag stored in the file, and display rhe following information on the screen
+			Title of the song
+			Author of the song ( artist )
+			Album
+			Year
+			Genre
+		If information are not available from the tag an "Unknown" message would be displayed to the screen
+
+	Part 2: Inventory implementation  written in C language that performs some following instruction:
+			1. Add new item
+			2. Delete old item
+			3. Edit item
+			4. Find item
+			5. Record inventory
+		This program use function for every option in part and also data are stored using array of 				structure. A menu is displayed to the screen from a separate function which allow user to enter an 			option from 1 - 5 and an extra option "exit" is added if user wants to exit the program without 			chosing any other option.
+		For the fifth function "Record Inventory" implement an appropriate sorting algorithm based on the 			design of max 200 inventory items and create a file called ITinventory that is used to store the 			sorted items for reference. An additional variable within the file or filename argument will be 			required to date the inventory file.
+
+	Part 3: Queue implementation, using a link list dynamic data structure implement a queue structure IT 				services tiketing system. The system will enable the user to add tickets when IT fix requests are 			recieved via phone. The important information for the system is as follows:
+			Name of client:
+			Contact number:
+			Short description of issue:
+			Time of phone call:
+		The ticketing system will only allow next ticket in the qeue be processed and the queu has a limit 			of 5 tickets.
