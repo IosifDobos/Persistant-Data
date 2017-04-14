@@ -57,7 +57,11 @@ char *my_genre_array[80] = {
 //main function
 int main(int argc, char *argv[])
 {
+<<<<<<< HEAD
     //declare my variables and pointers
+=======
+    //declare my file pointer
+>>>>>>> origin/master
     FILE *fp;
 
     //declare my structure variable
